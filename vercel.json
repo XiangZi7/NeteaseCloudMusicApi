@@ -11,11 +11,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "functions": {
-    "/chat": {
-      "memory": 3008,
-      "maxDuration": 30
-    }
-  }
+  ]
 }
