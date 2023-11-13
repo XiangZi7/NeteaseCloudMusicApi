@@ -1,7 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "timeout": 30 
+    "timeout": {
+      "default": 30 
+    }
   },
   "builds": [
     {
