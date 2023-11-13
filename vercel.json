@@ -1,10 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "/chat": {
-      "memory": 3008,
-      "maxDuration": 30
-    }
+    "timeout": 30 
   },
   "builds": [
     {
