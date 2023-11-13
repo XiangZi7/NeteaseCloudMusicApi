@@ -1,10 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "timeout": {
-      "default": 30 
-    }
-  },
   "builds": [
     {
       "src": "./index.js",
