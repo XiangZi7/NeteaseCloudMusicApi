@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "functions": {
+    "/chat": {
+      "memory": 3008,
+      "maxDuration": 30
+    }
+  },
   "builds": [
     {
       "src": "./index.js",
