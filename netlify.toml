@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build" # 如果需要构建步骤
+  functions = "functions"    # 存放 serverless 函数的目录
+
+[dev]
+  functions = "functions"
