@@ -1,6 +1,15 @@
 [build]
-  command = "husky install" # 如果需要构建步骤
-  functions = "functions"    # 存放 serverless 函数的目录
+  command = "./index.js" # 如果需要构建步骤
+  functions = "/(.*)"    # 存放 serverless 函数的目录
 
 [dev]
-  functions = "functions"
+  functions = "/(.*)"
+
+[[redirects]]
+  from = "/(.*)"
+  to = "/:splat"
+  status = 200
+
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
