@@ -11,7 +11,8 @@
     "pkgwin": "pkg . -t node14-win-x64 -C GZip -o bin/app --no-bytecode",
     "pkglinux": "pkg . -t node14-linux-x64 -C GZip -o bin/app --no-bytecode",
     "pkgmacos": "pkg . -t node14-macos-x64 -C GZip -o bin/app --no-bytecode",
-    "main": "index.js"
+    "main": "index.js",
+    "build": "npm run build"
   },
   "bin": "./app.js",
   "pkg": {
