@@ -12,7 +12,7 @@
     "pkglinux": "pkg . -t node14-linux-x64 -C GZip -o bin/app --no-bytecode",
     "pkgmacos": "pkg . -t node14-macos-x64 -C GZip -o bin/app --no-bytecode",
     "main": "index.js",
-    "build": "npm run build"
+    "build": "husky install"
   },
   "bin": "./app.js",
   "pkg": {
