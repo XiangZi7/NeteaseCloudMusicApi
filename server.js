@@ -237,6 +237,26 @@ async function consturctServer(moduleDefs) {
       res.status(500).send('Internal Server Error')
     }
   })
+  app.get('/aiimage', async (req, res) => {
+    try {
+      const response = await axios.post(
+        'http://8.218.198.198:8094/ai/v1/image',
+        {
+          messages: req.query.messages,
+        },
+        {
+          headers: {
+            Authorization: 'Basic cXExMjM0NTY6cXExMjM0NTY=',
+            'Content-Type': 'application/json',
+          },
+        },
+      )
+      res.json(response.data)
+    } catch (error) {
+      console.error(error)
+      res.status(500).send('Internal Server Error')
+    }
+  })
 
   /**
    * Load every modules in this directory
