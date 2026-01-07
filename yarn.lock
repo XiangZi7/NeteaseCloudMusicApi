@@ -3101,7 +3101,7 @@ safe-buffer@5.2.1, safe-buffer@~5.2.0:
 
 safe-decode-uri-component@^1.2.1:
   version "1.2.1"
-  resolved "https://registry.nlark.com/safe-decode-uri-component/download/safe-decode-uri-component-1.2.1.tgz"
+  resolved "https://registry.npmmirror.com/safe-decode-uri-component/download/safe-decode-uri-component-1.2.1.tgz"
   integrity sha1-3dMMV+Z5ejsGcYiDk6SYS0VOISk=
 
 "safer-buffer@>= 2.1.2 < 3":
